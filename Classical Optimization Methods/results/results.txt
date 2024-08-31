@@ -1,0 +1,102 @@
+************************Hill Climber***********************************
+
+--- Test Case 1 ---
+Hill Climber Optimal Point: [-4.09915157e-14  4.09915157e-14]
+Hill Climber Optimal Value: 1.3
+Hill Climber Total Operations: 800
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-5.46571322e-09  5.46571322e-09]
+Scipy Optimal Value: 1.3000000000000003
+
+Two norm error: 2.220446049250313e-16
+
+--- Test Case 2 ---
+Hill Climber Optimal Point: [-0.09  0.71]
+Hill Climber Optimal Value: -1.031570363853
+Hill Climber Total Operations: 88
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-0.08984251  0.71265686]
+Scipy Optimal Value: -1.03162845348746
+
+Two norm error: 5.8089634459967954e-05
+
+--- Test Case 3 ---
+Hill Climber Optimal Point: [-0.02  0.02]
+Hill Climber Optimal Value: 0.15850597371044728
+Hill Climber Total Operations: 4
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-4.69704227e-09 -4.78583402e-09]
+Scipy Optimal Value: 7.105427357601002e-15
+
+Two norm error: 0.15850597371044017
+
+**************************Gradient Descent*********************************
+--- Test Case 1 ---
+Gradient Descent Optimal Point: [1.36964248e-05 1.61680874e-05]
+Gradient Descent Optimal Value: 1.3000000001029597
+Gradient Descent Total Operations: 213
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-5.46571322e-09  5.46571322e-09]
+Scipy Optimal Value: 1.3000000000000003
+
+Two norm error: 1.0295941876847792e-10
+
+--- Test Case 2 ---
+Gradient Descent Optimal Point: [-0.08984206  0.71265597]
+Gradient Descent Optimal Value: -1.0316284534883142
+Gradient Descent Total Operations: 17
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-0.08984251  0.71265686]
+Scipy Optimal Value: -1.03162845348746
+
+Two norm error: 8.542055951465954e-13
+
+--- Test Case 3 ---
+Gradient Descent Optimal Point: [-1.53210777e-14  1.53210777e-14]
+Gradient Descent Optimal Value: 0.0
+Gradient Descent Total Operations: 1
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-4.69704227e-09 -4.78583402e-09]
+Scipy Optimal Value: 7.105427357601002e-15
+
+Two norm error: 7.105427357601002e-15
+
+*******************************Newton Method****************************
+--- Test Case 1 ---
+Newton's Method Optimal Point: [0. 0.]
+Newton's Method Optimal Value: 1.3
+Newton's Method Total Iterations: 1
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-5.46571322e-09  5.46571322e-09]
+Scipy Optimal Value: 1.3000000000000003
+
+Two norm error: 2.220446049250313e-16
+
+--- Test Case 2 ---
+Newton's Method Optimal Point: [-1.10920534  0.7682681 ]
+Newton's Method Optimal Value: 0.5437186009781854
+Newton's Method Total Iterations: 4
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-0.08984251  0.71265686]
+Scipy Optimal Value: -1.03162845348746
+
+Two norm error: 1.5753470544656454
+
+--- Test Case 3 ---
+Newton's Method Optimal Point: [-1.98991223  1.98991223]
+Newton's Method Optimal Value: 7.959662381108174
+Newton's Method Total Iterations: 2
+
+Validation using scipy.optimize:
+Scipy Optimal Point: [-4.69704227e-09 -4.78583402e-09]
+Scipy Optimal Value: 7.105427357601002e-15
+
+Two norm error: 7.959662381108167
