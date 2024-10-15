@@ -1,0 +1,141 @@
+andrea@andreaba:~/MCC/Evolutionary Computation$ /bin/python3 "/home/andrea/MCC/Evolutionary Computation/Evolutionary Algorithms/binary_encoding.py"
+--- Binary Test Problem 1 -- Experiment 1 ---
+Best value: 0.24406882624819487 at solution: [0.5136015869382771, 0.25053507286182963] and generation: 373
+--- Binary Test Problem 1 -- Experiment 2 ---
+Best value: 0.01730506845323247 at solution: [1.130548500801099, 1.2804257877470056] and generation: 131
+--- Binary Test Problem 1 -- Experiment 3 ---
+Best value: 2.1174056455141383e-06 at solution: [0.9990464942397193, 0.9979839780270088] and generation: 142
+--- Binary Test Problem 1 -- Experiment 4 ---
+Best value: 2.1174056455141383e-06 at solution: [0.9990464942397193, 0.9979839780270088] and generation: 15
+--- Binary Test Problem 1 -- Experiment 5 ---
+Best value: 0.00014634870511674746 at solution: [0.9879838254367899, 0.9757961394674601] and generation: 287
+--- Binary Test Problem 1 -- Experiment 6 ---
+Best value: 6.449104275127064e-05 at solution: [0.9916713817044327, 0.9828587472343027] and generation: 33
+--- Binary Test Problem 1 -- Experiment 7 ---
+Best value: 6.528151097752657e-05 at solution: [0.9919213855191882, 0.9839212634470131] and generation: 2
+--- Binary Test Problem 1 -- Experiment 8 ---
+Best value: 6.449104275127064e-05 at solution: [0.9917963836118107, 0.9837962615396356] and generation: 19
+--- Binary Test Problem 1 -- Experiment 9 ---
+Best value: 6.550679041673526e-05 at solution: [0.9919213855191882, 0.9838587624933242] and generation: 54
+--- Binary Test Problem 1 -- Experiment 10 ---
+Best value: 6.449104275127064e-05 at solution: [0.9919213855191882, 0.9838587624933242] and generation: 19
+--- Binary Test Problem 1 -- Experiment 11 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919838864728772, 0.9840462653543911] and generation: 75
+--- Binary Test Problem 1 -- Experiment 12 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919838864728772, 0.9840462653543911] and generation: 2
+--- Binary Test Problem 1 -- Experiment 13 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919838864728772, 0.9841712672617686] and generation: 13
+--- Binary Test Problem 1 -- Experiment 14 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919838864728772, 0.9840462653543911] and generation: 4
+--- Binary Test Problem 1 -- Experiment 15 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919838864728772, 0.9841712672617686] and generation: 1
+--- Binary Test Problem 1 -- Experiment 16 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919213855191882, 0.9840462653543911] and generation: 20
+--- Binary Test Problem 1 -- Experiment 17 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919838864728772, 0.9842962691691466] and generation: 126
+--- Binary Test Problem 1 -- Experiment 18 ---
+Best value: 6.427833770205632e-05 at solution: [0.9919838864728772, 0.9841087663080796] and generation: 10
+--- Binary Test Problem 1 -- Experiment 19 ---
+Best value: 0.0007692615239279138 at solution: [1.02773443198291, 1.1840493171587698] and generation: 319
+--- Binary Test Problem 1 -- Experiment 20 ---
+Best value: 0.0007726739250126048 at solution: [1.0277969329365986, 1.0562348668650339] and generation: 21
+
+--- Resume for Test Case 1 ---
+Mean: 0.01319524508990201
+Standard Deviation: 0.05309803752476379
+Minimum: 2.1174056455141383e-06
+Maximum: 0.24406882624819487
+
+--- Binary Test Problem 2 -- Experiment 1 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 18
+--- Binary Test Problem 2 -- Experiment 2 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 7
+--- Binary Test Problem 2 -- Experiment 3 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 4 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 5 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 6 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 18
+--- Binary Test Problem 2 -- Experiment 7 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 5
+--- Binary Test Problem 2 -- Experiment 8 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 9 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 10 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 11 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 66
+--- Binary Test Problem 2 -- Experiment 12 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 4
+--- Binary Test Problem 2 -- Experiment 13 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 4
+--- Binary Test Problem 2 -- Experiment 14 ---
+Best value: 6.054538417288313e-07 at solution: [3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 15 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 257
+--- Binary Test Problem 2 -- Experiment 16 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 17 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 18 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, 3.906279802556867e-05] and generation: 1
+--- Binary Test Problem 2 -- Experiment 19 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, -3.906279802556867e-05] and generation: 50
+--- Binary Test Problem 2 -- Experiment 20 ---
+Best value: 6.054538417288313e-07 at solution: [-3.906279802556867e-05, -3.906279802556867e-05] and generation: 1
+
+--- Resume for Test Case 2 ---
+Mean: 6.054538417288313e-07
+Standard Deviation: 0.0
+Minimum: 6.054538417288313e-07
+Maximum: 6.054538417288313e-07
+
+--- Binary Test Problem 3 -- Experiment 1 ---
+Best value: 2.5706063003077677 at solution: [-4.959998779287562, -5.119921874403949, -5.12, -4.959998779287562, -5.12] and generation: 298
+--- Binary Test Problem 3 -- Experiment 2 ---
+Best value: 2.843120506849756 at solution: [0.019492336214723238, -0.954030716176729, 0.032383059563137806, -0.0061328592900027346, 0.9562182328661564] and generation: 215
+--- Binary Test Problem 3 -- Experiment 3 ---
+Best value: 1.5136346007693646e-06 at solution: [3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05] and generation: 204
+--- Binary Test Problem 3 -- Experiment 4 ---
+Best value: 1.5136346007693646e-06 at solution: [3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05] and generation: 51
+--- Binary Test Problem 3 -- Experiment 5 ---
+Best value: 1.5136346007693646e-06 at solution: [3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05] and generation: 64
+--- Binary Test Problem 3 -- Experiment 6 ---
+Best value: 1.244550040777952 at solution: [-0.0043359705808301285, 0.9547338465411874, -0.003164086640065733, -0.04121125191690034, 0.003476589024269394] and generation: 495
+--- Binary Test Problem 3 -- Experiment 7 ---
+Best value: 1.2704697337116215 at solution: [-0.005117226541340614, 0.9545775953490852, -0.021211099327845595, -0.010820395053062981, 0.06472705632824916] and generation: 95
+--- Binary Test Problem 3 -- Experiment 8 ---
+Best value: 1.5136346007693646e-06 at solution: [-3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, 3.906279802556867e-05, -3.906279802556867e-05] and generation: 307
+--- Binary Test Problem 3 -- Experiment 9 ---
+Best value: 1.5136346007693646e-06 at solution: [-3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, 3.906279802556867e-05, -3.906279802556867e-05] and generation: 61
+--- Binary Test Problem 3 -- Experiment 10 ---
+Best value: 1.5136346007693646e-06 at solution: [3.906279802556867e-05, -3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, 3.906279802556867e-05] and generation: 235
+--- Binary Test Problem 3 -- Experiment 11 ---
+Best value: 1.5136346007693646e-06 at solution: [3.906279802556867e-05, -3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, 3.906279802556867e-05] and generation: 36
+--- Binary Test Problem 3 -- Experiment 12 ---
+Best value: 1.2440601364832595 at solution: [0.04418002456683823, 0.0008203187585351657, -0.010664143860960706, -0.9594995079002988, 0.010664143860960706] and generation: 497
+--- Binary Test Problem 3 -- Experiment 13 ---
+Best value: 1.2772527407612415 at solution: [0.004726598561084927, 0.004804724157136064, -0.01910170823446844, -0.9549682233293408, 0.007382868826819156] and generation: 219
+--- Binary Test Problem 3 -- Experiment 14 ---
+Best value: 1.5136346007693646e-06 at solution: [3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, 3.906279802556867e-05, -3.906279802556867e-05] and generation: 298
+--- Binary Test Problem 3 -- Experiment 15 ---
+Best value: 1.5136346007693646e-06 at solution: [3.906279802556867e-05, -3.906279802556867e-05, 3.906279802556867e-05, 3.906279802556867e-05, -3.906279802556867e-05] and generation: 95
+--- Binary Test Problem 3 -- Experiment 16 ---
+Best value: 2.279946362057018 at solution: [-0.005507854521595412, 0.9588745031318897, 0.0023047050835041105, 0.005898482501850211, -1.0019998321520402] and generation: 412
+--- Binary Test Problem 3 -- Experiment 17 ---
+Best value: 1.2459200304090832 at solution: [-0.04050812155244099, 0.9587963775358386, 3.906279802556867e-05, 0.002226579487452973, -0.0013671979308922388] and generation: 493
+--- Binary Test Problem 3 -- Experiment 18 ---
+Best value: 2.4783530256518365 at solution: [0.027383021415873898, -0.9541869673688312, 0.030351794065811788, 0.0027734586598100464, 0.9786402789327919] and generation: 421
+--- Binary Test Problem 3 -- Experiment 19 ---
+Best value: 1.2510592005290295 at solution: [0.019023582638417302, -0.010351641476757045, -0.013476665318796321, -0.0035547146203205315, 0.9479369196847509] and generation: 398
+--- Binary Test Problem 3 -- Experiment 20 ---
+Best value: 1.2515312488127535 at solution: [-0.02433612316988487, -0.06832083374659526, 0.001132821142739715, -0.9199679562984953, 0.008476627171533302] and generation: 454
+
+--- Resume for Test Case 3 ---
+Mean: 0.9478441474531362
+Standard Deviation: 0.976970424103715
+Minimum: 1.5136346007693646e-06
+Maximum: 2.843120506849756

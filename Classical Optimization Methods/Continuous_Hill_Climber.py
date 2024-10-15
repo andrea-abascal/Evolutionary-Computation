@@ -53,6 +53,7 @@ def plot_contour(f, solution, bounds, path, filename, step_size):
     plt.show()
 
 # Test cases
+"""
 tests = [
     {
         "objective_function": lambda x: -1 * (-2 * x[0]**2 + 3 * x[0] * x[1] - 1.5 * x[1]**2 - 1.3),
@@ -76,6 +77,24 @@ tests = [
         "filename": "hill_climber_C.png"
     }
 ]
+"""
+tests = [
+    {   "objective_function": lambda x: 100 * (x[0]**2 - x[1])**2 + (1 -x[0])**2,
+        "bounds": [(-2.048, 2.048), (-2.048, 2.048)],
+        "starting_point": [0.5, 1],
+        "step_size": 0.1,
+        "filename": "/home/andrea/MCC/Repos/Evolutionary Computation/GA_results/hill_climber_rosenbrock.png"},
+    {
+        "objective_function": lambda x: 20 + (x[0]**2 - 10 * np.cos(2 * np.pi * x[0])) + (x[1]**2 - 10 * np.cos(2 * np.pi * x[1])),
+        "starting_point": [-2, 2],
+        "bounds": [(-5.12, 5.12), (-5.12, 5.12)],
+        "step_size": 0.99,
+        "filename": "/home/andrea/MCC/Repos/Evolutionary Computation/GA_results/hill_climber_C.png"
+    }
+]
+
+
+
 # Iterate over each test case
 for i, test in enumerate(tests):
     print(f"--- Test Case {i+1} ---")
@@ -88,7 +107,6 @@ for i, test in enumerate(tests):
 
     # Run the hill climber algorithm
     solution_hill_climber, solution_value_hill_climber, operations, path = hill_climber(objective_function, starting_point, step_size=step_size)
-
     # Validate with scipy
     result = minimize(objective_function, starting_point, bounds=bounds)
 

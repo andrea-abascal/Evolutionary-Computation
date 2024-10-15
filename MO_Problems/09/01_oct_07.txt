@@ -1,0 +1,83 @@
+***************************************************
+Constrained Non - Linear Programming Problem NLP  *
+***************************************************
+
+Constraints found in real world problems, makes it a small size of search of space -> the feasible space.
+
+Equality constraints change R dimentionality, reduce the dimension (by one per equality constraint)
+Inequality do not change dimention of R
+
+why do equality constraints reduce search space?
+
+------------------------------------------
+Transforming Constraints                  |
+------------------------------------------
+
+Transform equality into inequality constraints
+e.i Create two ineqquality constraints from h(x) = 0
+
+g_1 = h(x) <= 0
+g_2 = h(x) >= 0
+
+Relaxation
+You add a tolerance given by delta. It is a permissible error. Thus:
+
+g_1 = h(x) - delta <= 0
+g_2 = -h(x) + delta >= 0
+
+delta is small for example {1x10-3, 1x10-4, 1x10-6}
+
+Transform inequality into equality constraints
+
+Done by using slack/artificial variables.
+
+g_1(x) <= 0 now g_1(x) + s_1² = 0
+
+You increase the dimention space in the same variables you add equalities to the problem.
+
+Example Convert box constraints into an equality.
+
+x in [0,1] f(x) = x
+0<=x<=1
+	- g1(x) = -x <= 0
+	- g2(x) = x -1 <= 0
+
+h(x,s_1,s_2)_1 = -x + s_1² = 0
+h(x,s_1,s_2)_2 = x - 1 + s_2² = 0
+
+-------------------------------
+Karush Kuhn Tucker Condition   |
+-------------------------------
+They are first order necessary conditions.
+
+-------------------------------
+Constraint Handling Techniques |
+-------------------------------
+
+Ideal properties:
+1. Subproblem solutions should approach a solution to the NLP
+2. The problem of minimizing phi(x) should be similar in difficultu to minimizing the original function.
+	phi(x) is a violation function. The amount of solutions not fullfiling the constraints. (also penalty fucntion)
+3. Define penalty factors r and c
+
+-------------------------------
+Transformation Methods        |
+-------------------------------
+a) Exterior methods
+	Move from infeasible to feasible region. Commonly used in EAs because infeasible solutions preserve diversity. With penalization you push unfeasible to feasible.
+b) Interior methods
+	Drastic penalization, like some barriers. Must begin with a feasible solution and if alg generates an infeasible sol your alg cannot go back to feasible region.
+	Therefore must keep search in feasible region.
+	
+
+-------------------------------
+Penalty Functions             |
+-------------------------------
+Fridis17$811
+
+fitness = objective function + the evaluation of the penalties
+Beta, gamma user defined (heuristic search)
+
+- Death Penalty: Kind of an interior method because if it is not feasible it does not survive.
+
+Stochastic ranking separates the violation of the constraints.

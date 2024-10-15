@@ -1,0 +1,125 @@
+andrea@andreaba:~/MCC/Evolutionary Computation$ /bin/python3 "/home/andrea/MCC/Evolutionary Computation/Evolutionary Algorithms/real_encoding.py"
+--- Test Case 1 -- Experiment 1 ---
+Best value: 5.368394221905823e-07 at solution: [0.99961679 1.44173166] and generation: 486
+--- Test Case 1 -- Experiment 2 ---
+Best value: 8.147824350372744e-07 at solution: [1.01062353 1.03915944] and generation: 477
+--- Test Case 1 -- Experiment 3 ---
+Best value: 2.999929893179706e-09 at solution: [0.95846936 1.00023769] and generation: 498
+--- Test Case 1 -- Experiment 4 ---
+Best value: 8.100627583680059e-05 at solution: [1.04471191 1.0147914 ] and generation: 137
+--- Test Case 1 -- Experiment 5 ---
+Best value: 8.373350740648594e-06 at solution: [1.03215284 1.07015091] and generation: 220
+--- Test Case 1 -- Experiment 6 ---
+Best value: 9.029487770116587e-06 at solution: [1.00562671 1.01491372] and generation: 291
+--- Test Case 1 -- Experiment 7 ---
+Best value: 1.9352336241565017e-06 at solution: [0.99916608 0.99822151] and generation: 492
+--- Test Case 1 -- Experiment 8 ---
+Best value: 4.822080384453585e-05 at solution: [0.99107975 0.97911713] and generation: 232
+--- Test Case 1 -- Experiment 9 ---
+Best value: 7.494390023495764e-05 at solution: [1.00823904 1.01711842] and generation: 442
+--- Test Case 1 -- Experiment 10 ---
+Best value: 7.767902602606238e-07 at solution: [0.99444029 1.01063237] and generation: 366
+--- Test Case 1 -- Experiment 11 ---
+Best value: 5.735636179378305e-07 at solution: [1.01085525 1.02149054] and generation: 334
+--- Test Case 1 -- Experiment 12 ---
+Best value: 3.3162221884099275e-05 at solution: [0.99143731 1.01166989] and generation: 357
+--- Test Case 1 -- Experiment 13 ---
+Best value: 0.00012152253614234312 at solution: [0.98975835 0.98002941] and generation: 339
+--- Test Case 1 -- Experiment 14 ---
+Best value: 0.0005283890726208162 at solution: [0.97264555 1.13962287] and generation: 188
+--- Test Case 1 -- Experiment 15 ---
+Best value: 7.915556245625766e-06 at solution: [0.99997845 0.99967556] and generation: 455
+--- Test Case 1 -- Experiment 16 ---
+Best value: 0.0001609950998932051 at solution: [1.0133849  1.06061323] and generation: 347
+--- Test Case 1 -- Experiment 17 ---
+Best value: 4.6435179954049095e-06 at solution: [0.99666623 0.98905705] and generation: 403
+--- Test Case 1 -- Experiment 18 ---
+Best value: 1.560296723022527e-05 at solution: [1.00291096 1.00380895] and generation: 136
+--- Test Case 1 -- Experiment 19 ---
+Best value: 1.5180573759644483e-05 at solution: [0.98716952 0.95440343] and generation: 255
+--- Test Case 1 -- Experiment 20 ---
+Best value: 6.613187273622385e-05 at solution: [0.99451331 0.98845649] and generation: 399
+--- Test Case 2 -- Experiment 1 ---
+Best value: 0.0083888057382282 at solution: [0.00062552 0.02076548] and generation: 218
+--- Test Case 2 -- Experiment 2 ---
+Best value: 0.00032054687721938535 at solution: [0.00220765 0.00093205] and generation: 467
+--- Test Case 2 -- Experiment 3 ---
+Best value: 0.009415661751532411 at solution: [-0.02654724  0.00244657] and generation: 319
+--- Test Case 2 -- Experiment 4 ---
+Best value: 0.0117820480111277 at solution: [0.00151668 0.00755633] and generation: 149
+--- Test Case 2 -- Experiment 5 ---
+Best value: 0.0038507947949710797 at solution: [0.00536953 0.00175941] and generation: 219
+--- Test Case 2 -- Experiment 6 ---
+Best value: 0.0024343375219544328 at solution: [0.05129833 0.00799279] and generation: 290
+--- Test Case 2 -- Experiment 7 ---
+Best value: 0.004754155652303638 at solution: [0.0047239  0.00128445] and generation: 183
+--- Test Case 2 -- Experiment 8 ---
+Best value: 0.003932420099616252 at solution: [0.92302507 0.19361375] and generation: 218
+--- Test Case 2 -- Experiment 9 ---
+Best value: 0.031636445678508096 at solution: [0.01250037 0.00986356] and generation: 71
+--- Test Case 2 -- Experiment 10 ---
+Best value: 0.004266023007183151 at solution: [0.00659386 0.02701676] and generation: 271
+--- Test Case 2 -- Experiment 11 ---
+Best value: 0.01621457710782437 at solution: [0.08526557 1.87830168] and generation: 432
+--- Test Case 2 -- Experiment 12 ---
+Best value: 0.007518534962812851 at solution: [-0.19544565  0.00617783] and generation: 484
+--- Test Case 2 -- Experiment 13 ---
+Best value: 0.006850677645491743 at solution: [0.00620919 0.00641076] and generation: 204
+--- Test Case 2 -- Experiment 14 ---
+Best value: 0.001257817226296254 at solution: [0.00419225 0.00454827] and generation: 439
+--- Test Case 2 -- Experiment 15 ---
+Best value: 0.0046889406193599825 at solution: [0.01093216 0.00462732] and generation: 356
+--- Test Case 2 -- Experiment 16 ---
+Best value: 0.003548117303822096 at solution: [0.00390406 0.00491627] and generation: 428
+--- Test Case 2 -- Experiment 17 ---
+Best value: 0.007239790864474571 at solution: [ 0.99085804 -0.0309484 ] and generation: 175
+--- Test Case 2 -- Experiment 18 ---
+Best value: 0.0030789416996341856 at solution: [-0.13808846 -0.76957026] and generation: 310
+--- Test Case 2 -- Experiment 19 ---
+Best value: 0.002387649001828862 at solution: [0.0241881  0.11036422] and generation: 469
+--- Test Case 2 -- Experiment 20 ---
+Best value: 0.005946801856310913 at solution: [-0.00865982 -0.0069501 ] and generation: 187
+--- Test Case 3 -- Experiment 1 ---
+Best value: 0.006123991979080756 at solution: [0.00027187 0.00568007 0.00092822 0.00287089 0.00143723] and generation: 457
+--- Test Case 3 -- Experiment 2 ---
+Best value: 0.03187539480380508 at solution: [ 0.00460957  0.00635746 -0.43710432  0.00873048  0.1501475 ] and generation: 464
+--- Test Case 3 -- Experiment 3 ---
+Best value: 0.01944002769913311 at solution: [0.03559991 0.00718627 0.00302974 0.00704348 0.0129208 ] and generation: 493
+--- Test Case 3 -- Experiment 4 ---
+Best value: 0.015777111031901825 at solution: [ 0.00494414  0.10464787 -0.34649348  0.00177409  0.00421814] and generation: 484
+--- Test Case 3 -- Experiment 5 ---
+Best value: 0.01030547143083993 at solution: [0.00244469 0.00268567 0.00077815 0.00295026 0.00561644] and generation: 462
+--- Test Case 3 -- Experiment 6 ---
+Best value: 0.006150713048512557 at solution: [4.45380541e-03 1.27630376e-03 2.53483594e-03 3.00643404e-05
+ 1.88655017e-03] and generation: 470
+--- Test Case 3 -- Experiment 7 ---
+Best value: 0.15046157015920159 at solution: [0.00731826 0.02341202 0.00688475 0.02077422 0.01035163] and generation: 488
+--- Test Case 3 -- Experiment 8 ---
+Best value: 0.01298751380429053 at solution: [0.00418067 0.00309688 0.70306298 0.00514844 0.00170619] and generation: 491
+--- Test Case 3 -- Experiment 9 ---
+Best value: 0.0016821631306100926 at solution: [2.16683523e-03 1.87098779e-03 6.29522148e-01 5.22433412e-04
+ 1.97752008e-02] and generation: 486
+--- Test Case 3 -- Experiment 10 ---
+Best value: 0.006396657992560506 at solution: [0.00055695 0.01092484 0.02929059 0.00268427 0.48178289] and generation: 453
+--- Test Case 3 -- Experiment 11 ---
+Best value: 0.043021080624193075 at solution: [0.0029707  0.26404106 0.01053068 0.01079676 0.00659963] and generation: 416
+--- Test Case 3 -- Experiment 12 ---
+Best value: 0.07225358091505996 at solution: [0.00254099 0.0164815  0.00743553 0.0041529  0.55962214] and generation: 499
+--- Test Case 3 -- Experiment 13 ---
+Best value: 0.0652726643208581 at solution: [0.00695929 0.01510635 0.00528586 0.01647434 0.00115788] and generation: 449
+--- Test Case 3 -- Experiment 14 ---
+Best value: 1.012982806122693 at solution: [0.00301709 0.9893445  0.00210351 0.00710536 0.00314303] and generation: 464
+--- Test Case 3 -- Experiment 15 ---
+Best value: 0.01037867019937977 at solution: [0.0002709  0.00587209 0.00267572 0.0003969  0.00670388] and generation: 495
+--- Test Case 3 -- Experiment 16 ---
+Best value: 0.005577376921621635 at solution: [ 3.76186591e-01 -3.13899764e-02  3.85252909e-01  9.39401207e-04
+ -1.11907099e+00] and generation: 496
+--- Test Case 3 -- Experiment 17 ---
+Best value: 0.665727954124776 at solution: [0.00505464 0.02915957 0.0097205  0.00416674 0.96752754] and generation: 437
+--- Test Case 3 -- Experiment 18 ---
+Best value: 0.028679193288589033 at solution: [ 0.00472083  0.38751519  0.02932279 -0.68324338  0.00135455] and generation: 484
+--- Test Case 3 -- Experiment 19 ---
+Best value: 0.046837145783271694 at solution: [0.00873542 0.01329301 0.01038718 0.00077779 0.47182938] and generation: 389
+--- Test Case 3 -- Experiment 20 ---
+Best value: 0.6385969501519071 at solution: [9.95739047e-01 3.20977595e-03 3.70392128e-03 6.14709108e-03
+ 3.84479313e-04] and generation: 315

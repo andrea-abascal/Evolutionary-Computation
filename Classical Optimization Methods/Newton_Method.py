@@ -23,7 +23,6 @@ def newton_method(f, x_init, tol=1e-5, max_iter=30):
         if np.linalg.norm(step) < tol:
             break
     
-
     value = f(x)
     return x, value, iteration, path
 
@@ -52,7 +51,7 @@ def plot_contour(f, solution, bounds, path, filename):
 
 def error(optimal_val, obtained_val):
     return np.linalg.norm(optimal_val-obtained_val)
-
+"""
 # Test cases
 tests = [
     {
@@ -74,7 +73,19 @@ tests = [
         "filename": "Classical Optimization Methods/results/newton_method_C.png"
     }
 ]
-
+"""
+tests = [
+    {   "objective_function": lambda x: 100 * (x[0]**2 - x[1])**2 + (1 -x[0])**2,
+        "bounds": [(-2.048, 2.048), (-2.048, 2.048)],
+        "starting_point": [0.5, 1],
+        "filename": "/home/andrea/MCC/Repos/Evolutionary Computation/GA_results/newton_method_rosenbrock.png"},
+    {
+        "objective_function": lambda x: 20 + (x[0]**2 - 10 * np.cos(2 * np.pi * x[0])) + (x[1]**2 - 10 * np.cos(2 * np.pi * x[1])),
+        "starting_point": [-2, 2],
+        "bounds": [(-5.12, 5.12), (-5.12, 5.12)],
+        "filename": "/home/andrea/MCC/Repos/Evolutionary Computation/GA_results/newton_method_C.png"
+    }
+]
 # Iterate over each test case
 for i, test in enumerate(tests):
     print(f"--- Test Case {i + 1} ---")

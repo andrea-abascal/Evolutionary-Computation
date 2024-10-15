@@ -6,25 +6,22 @@ from mpl_toolkits.mplot3d import Axes3D
 tests = [
     {
         "objective_function": lambda x:  -1* ((-2 * x[0]**2 )+ (3 * x[0] * x[1]) - (1.5 * x[1]**2) - 1.3),
-        "starting_point": [-4, 4],
         "bounds": [(-6, 6), (-6, 6)],
-        "step_size": 0.01,
-        "filename": "objective_function_A.png"
+        "filename": "objective_function_polinomial.png"
     },
     {
         "objective_function": lambda x: (4 - 2.1 * x[0]**2 + (x[0]**4)/3) * x[0]**2 + x[0] * x[1] + (-4 + 4 * x[1]**2) * x[1]**2,
-        "starting_point": [0.5, 1],
         "bounds": [(-3, 3), (-2, 2)],
-        "step_size": 0.01,
-        "filename": "objective_function_B.png"
+        "filename": "objective_function_six_hump_camel.png"
     },
     {
         "objective_function": lambda x: 20 + (x[0]**2 - 10 * np.cos(2 * np.pi * x[0])) + (x[1]**2 - 10 * np.cos(2 * np.pi * x[1])),
-        "starting_point": [-2, 2],
         "bounds": [(-5.12, 5.12), (-5.12, 5.12)],
-        "step_size": 0.99,
-        "filename": "objective_function_C.png"
-    }
+        "filename": "objective_function_rastrigin_n2.png"
+    },
+    {"objective_function": lambda x: 100 * (x[0]**2 - x[1])**2 + (1 -x[0])**2,
+        "bounds": [(-2.048, 2.048), (-2.048, 2.048)],
+        "filename": "objective_function_rosenbrock.png"}
 ]
 
 # Create 3D plots for each objective function
